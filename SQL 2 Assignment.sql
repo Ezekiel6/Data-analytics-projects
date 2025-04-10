@@ -1,3 +1,19 @@
+-- 1. Create the table
+CREATE TABLE employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    department VARCHAR(50),
+    job_title VARCHAR(100),
+    salary DECIMAL(10,2),
+    hire_date DATE,
+    performance_score INT,
+    location VARCHAR(50),
+    employment_status VARCHAR(20),
+    age INT,
+    gender VARCHAR(20)
+);   
+
 SELECT *
  FROM employees;
  
